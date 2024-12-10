@@ -39,7 +39,8 @@ from eth.vm.header import (
 ROOT_PROJECT_DIR = Path(__file__).parents[3]
 
 
-BASE_FIXTURE_PATH = os.path.join(ROOT_PROJECT_DIR, "fixtures", "BlockchainTests")
+# BASE_FIXTURE_PATH = os.path.join(ROOT_PROJECT_DIR, "fixtures", "BlockchainTests")
+BASE_FIXTURE_PATH = os.path.join(ROOT_PROJECT_DIR, "temp_test")
 
 
 # These are the slowest tests from the full blockchain test run. This list
